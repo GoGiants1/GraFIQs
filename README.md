@@ -35,9 +35,15 @@ Face Image Quality Assessment (FIQA) estimates the utility of face images for au
 
 ### Setup
 
+```bash
+# Need uv for the following commands
+uv sync
+source .venv/bin/activate
+```
+
 Install all necessary packages in a Python >=3.10 environment:
 ```
-   pip install torch torchvision numpy tqdm opencv-python
+   pip install torch torchvision numpy tqdm opencv-python-headless
 ```
 
 ### Extract Face Image Quality Scores
